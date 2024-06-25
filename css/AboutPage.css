@@ -49,3 +49,27 @@ body {
     margin: 0;
 	overflow: hidden;
 }
+
+#Header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+    margin: 10px;
+    padding-left: 71%;
+}
+
+#NavBar a {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#NavBarText:hover {
+    color: #00b7ff;
+}
