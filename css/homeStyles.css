@@ -135,6 +135,10 @@
     font-family: "Rubik", sans-serif;
 }
 
+#Title:hover {
+    color :#00b7ff;
+}
+
 #MainBox{
     position: absolute;
     right: 10px;
