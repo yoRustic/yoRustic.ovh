@@ -1,0 +1,51 @@
+.no-underline {
+    text-decoration: none;
+    color :white;
+}
+
+.no-underline:hover {
+    text-decoration: none;
+    color :#00b7ff;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.hollowed-out {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+#Title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+#Title:hover {
+    color :#00b7ff;
+}
+
+#MainText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    right: 10px;
+    top: 25%;
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+    font-weight: 10;
+    padding: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00090e;
+    margin: 0;
+	overflow: hidden;
+}

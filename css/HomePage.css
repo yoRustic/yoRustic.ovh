@@ -1,0 +1,136 @@
+.no-underline {
+    text-decoration: none;
+}
+
+.rubik {
+    font-family: 'Rubik', sans-serif;
+}
+
+.hollowed-out {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+}
+
+.contentFont {
+    font-size: 2.125rem;
+    margin: 30px;
+}
+
+.contentFont i {
+    padding-right: 10px;
+}
+
+#Title {
+    font-size: 4rem;
+    font-weight: 900;
+    color: white;
+    font-family: "Rubik", sans-serif;
+}
+
+#Title:hover {
+    color: #00b7ff;
+}
+
+#MainBox {
+    position: absolute;
+    right: 10px;
+    top: 25%;
+    padding-right: 5%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00090e;
+    margin: 0;
+    overflow: hidden;
+}
+
+#Content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    background-color: rgb(40, 40, 40);
+    border-radius: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: medium;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+}
+
+#SpotifyBox {
+    font-size: medium;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    position: absolute;
+    left: 50px;
+    top: 25%;
+    width: 50%;
+    height: 505px;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    #SpotifyWrapper {
+        display: none;
+        max-width: none;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 50%;
+    }
+}
+
+@media (max-width: 414px) and (orientation: portrait) {
+    #SpotifyWrapper {
+        display: none;
+    }
+}
+
+#Steam {
+    color: white;
+    font-size: 34px;
+}
+
+#Steam:hover {
+    color: #00b7ff;
+}
+
+#chess {
+    color: white;
+    font-size: 34px;
+}
+
+#chess:hover {
+    color: #00b7ff;
+}
+
+#spotify {
+    color: white;
+    font-size: 34px;
+}
+
+#spotify:hover {
+    color: #00b7ff;
+}
+
+#Github {
+    color: white;
+    font-size: 34px;
+}
+
+#Github:hover {
+    color: #00b7ff;
+}
+
+#AboutMe {
+    color: white;
+    font-size: 34px;
+}
+
+#AboutMe:hover {
+    color: #00b7ff;
+}
