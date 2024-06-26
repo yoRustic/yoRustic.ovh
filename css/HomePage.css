@@ -74,7 +74,7 @@ body {
     border-radius: 10px;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 1274px) {
     #SpotifyWrapper {
         display: none;
         max-width: none;
@@ -84,7 +84,7 @@ body {
     }
 }
 
-@media (max-width: 414px) and (orientation: portrait) {
+@media (max-width: 375px) and (orientation: portrait) {
     #SpotifyWrapper {
         display: none;
     }

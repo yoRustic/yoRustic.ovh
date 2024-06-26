@@ -50,20 +50,8 @@ body {
 	overflow: hidden;
 }
 
-#Header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    z-index: 100;
-    margin: 10px;
-    padding-left: 78%;
-}
-
 #NavBar a {
-    font-size: 18px;
+    font-size: 27px;
     color: white;
     font-weight: 400;
     text-decoration: none;
