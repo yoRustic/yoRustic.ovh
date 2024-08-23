@@ -3,17 +3,18 @@
 <title>yoRustic</title>
 <link rel="icon" type="image/x-icon" href="../assets/images/Logo.ico">
 
+<?php
+    include('../php/head.php');
+?>
+
 <head>
-    <script src="https://kit.fontawesome.com/0098dc515c.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600;700&display=swap">
     <link rel="stylesheet" href="../css/AboutPage.css">
-    <link rel="stylesheet" href="../css/Background.css">
 </head>
 
 <body>
 
     <h1 id="Title" class="hollowed-out">
-        <a id="Title" class="no-underline" href="../index.html">yoRustic</a>
+        <a id="Title" class="no-underline" href="../">yoRustic</a>
     </h1>
 
     <header id="Header">
