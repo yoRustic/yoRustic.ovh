@@ -13,7 +13,7 @@
 
 <body>
     <h1 id="Title" class="hollowed-out">
-        <a id="Title" class="no-underline" href="./index.html">yoRustic</a>
+        <a id="Title" class="no-underline" href="./">yoRustic</a>
     </h1>
     <div id="MainBox">
         <div id="Content">
