@@ -8,4 +8,6 @@
     $NewFile=fopen("./misc/visits.txt","w");
 
     fwrite($NewFile,$NewVisits);
+
+    fclose($NewFile);
 ?>
