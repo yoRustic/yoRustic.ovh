@@ -7,6 +7,10 @@
     include('../php/head.php');
 ?>
 
+<?php
+    include('php/logger.php');
+?>
+
 <head>
     <link rel="stylesheet" href="../css/aboutpage.css">
 </head>
