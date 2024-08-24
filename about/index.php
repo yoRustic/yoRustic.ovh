@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<title>yoRustic</title>
+<title>About Me</title>
 <link rel="icon" type="image/x-icon" href="../assets/images/Logo.ico">
 
 <?php
@@ -8,7 +8,7 @@
 ?>
 
 <head>
-    <link rel="stylesheet" href="../css/AboutPage.css">
+    <link rel="stylesheet" href="../css/aboutpage.css">
 </head>
 
 <body>

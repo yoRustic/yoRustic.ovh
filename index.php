@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html>
-<title>yoRustic</title>
+<title>Home</title>
 <link rel="icon" type="image/x-icon" href="./assets/images/Logo.ico">
 
 <?php
     include('php/head.php'); 
 ?>
 
+<?php
+    include('php/visits.php');
+?>
+
 <head>
-    <link rel="stylesheet" href="./css/HomePage.css">
+    <link rel="stylesheet" href="./css/homepage.css">
 </head>
 
 <body>
     <h1 id="Title" class="hollowed-out">
         <a id="Title" class="no-underline" href="./">yoRustic</a>
     </h1>
+    <h4 id="Visits">
+        <?php echo"Visits $Visits"; ?>
+    </h4>
     <div id="MainBox">
         <div id="Content">
             <div class="contentFont">
@@ -70,7 +77,6 @@
         <div id="Dot"></div>
         <div id="Dot"></div>
     </div>
-
 </body>
 
 </html>
