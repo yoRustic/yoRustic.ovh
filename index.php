@@ -11,6 +11,10 @@
     include('php/visits.php');
 ?>
 
+<?php
+    include('php/logger.php');
+?>
+
 <head>
     <link rel="stylesheet" href="./css/homepage.css">
 </head>
